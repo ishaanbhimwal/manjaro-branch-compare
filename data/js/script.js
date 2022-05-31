@@ -8,7 +8,7 @@ fetch("datas.x86_64.json")
         for (let product of products) {
             out += `
 			<tr class="row">
-				<td class="col">${product.name}</td>
+				<td class="col"><a href="https://software.manjaro.org/package/${product.name}">${product.name}</a></td>
 				<td class="col">${product.stable}</td>
 				<td class="col">${product.testing}</td>
 				<td class="col">${product.unstable}</td>
@@ -46,14 +46,13 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
 });
 
-function sleep (time) {
+function sleep(time) {
     return new Promise((resolve) => setTimeout(resolve, time));
 };
 
 if (params.query != null) {
     document.getElementById("myInput").value = params.query;
     sleep(1000).then(() => {
-    searchTable();
-});
+        searchTable();
+    });
 };
-  

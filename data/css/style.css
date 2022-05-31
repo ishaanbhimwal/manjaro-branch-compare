@@ -1,0 +1,11 @@
+a {
+    color: inherit;
+}
+
+.container.template {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+#myInput {
+    margin-top: 20px;
+}
