@@ -1,12 +1,12 @@
 fetch("datas.x86_64.json")
-.then(function(response){
-	return response.json();
-})
-.then(function(products){
-	let placeholder = document.querySelector("#data-output");
-	let out = "";
-	for(let product of products){
-		out += `
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (products) {
+        let placeholder = document.querySelector("#data-output");
+        let out = "";
+        for (let product of products) {
+            out += `
 			<tr class="row">
 				<td class="col">${product.name}</td>
 				<td class="col">${product.stable}</td>
@@ -15,16 +15,29 @@ fetch("datas.x86_64.json")
 				<td class="col">${product.repo}</td>
 			</tr>
 		`;
-	}
+        }
 
-	placeholder.innerHTML = out;
-});
+        placeholder.innerHTML = out;
+    });
 
-$(document).ready(function(){
-	$("#tableSearch").on("keyup", function() {
-	  var value = $(this).val().toLowerCase();
-	  $("#data-output tr").filter(function() {
-		$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-	  });
-	});
-  });
+function searchTable() {
+    var input, filter, found, table, tr, td, i, j;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("data-output");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+            if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                found = true;
+            }
+        }
+        if (found) {
+            tr[i].style.display = "";
+            found = false;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+};

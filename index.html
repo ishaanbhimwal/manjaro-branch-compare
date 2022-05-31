@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Manjaro Branch Compare - Compare packages of different Branches</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="icon" href="data/img/manjaro.png">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+
 <body>
 	<nav class="navbar navbar-expand-md navbar-light bg-light">
 		<div class="container">
@@ -22,7 +23,8 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="">Compare packages of different Branches<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="">Compare packages of different Branches<span
+								class="sr-only">(current)</span></a>
 					</li>
 				</ul>
 				<ul class="navbar-nav pull-xs-right">
@@ -33,8 +35,10 @@
 			</div>
 		</div>
 	</nav>
-	<div class="container template text-center">
-		<input class="form-control mb-4" id="tableSearch" type="text" placeholder="Search for package..." style="margin-top: 20px;">
+	<div class="container template text-center"
+		style='font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;'>
+		<input class="form-control mb-4" id="myInput" onkeyup='searchTable()' type="text"
+			placeholder="Search for package..." style="margin-top: 20px;">
 		<table class="table table-sm table-responsive-md">
 			<thead>
 				<tr class="row">
@@ -45,10 +49,11 @@
 					<th class="col">Repository</th>
 				</tr>
 			</thead>
-			<tbody id="data-output" style="font-family: 'Courier New', Courier, monospace;">
+			<tbody id="data-output">
 			</tbody>
 		</table>
 	</div>
 	<script src="data/js/script.js"></script>
 </body>
+
 </html>
