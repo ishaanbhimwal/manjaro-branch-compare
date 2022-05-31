@@ -52,7 +52,7 @@ function sleep(time) {
 
 if (params.query != null) {
     document.getElementById("myInput").value = params.query;
-    sleep(1000).then(() => {
+    sleep(2000).then(() => {
         searchTable();
     });
 };
