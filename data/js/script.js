@@ -41,3 +41,19 @@ function searchTable() {
         }
     }
 };
+
+const params = new Proxy(new URLSearchParams(window.location.search), {
+    get: (searchParams, prop) => searchParams.get(prop),
+});
+
+function sleep (time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+};
+
+if (params.query != null) {
+    document.getElementById("myInput").value = params.query;
+    sleep(1000).then(() => {
+    searchTable();
+});
+};
+  
