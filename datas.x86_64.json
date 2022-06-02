@@ -848,7 +848,7 @@
 ,{"name":"gnome-robots","stable":"40.0-1","testing":"40.0-1","unstable":"40.0-1","repo":"extra"}
 ,{"name":"gnome-screenshot","stable":"41.0+r25+g45f08f0-1","testing":"41.0+r25+g45f08f0-1","unstable":"41.0+r25+g45f08f0-1","repo":"extra"}
 ,{"name":"gnome-session","stable":"42.0-1","testing":"42.0-1","unstable":"42.0-1","repo":"extra"}
-,{"name":"gnome-settings-daemon","stable":"42.1-1","testing":"42.1-1","unstable":"42.1-1","repo":"extra"}
+,{"name":"gnome-settings-daemon","stable":"42.1-1","testing":"42.1-1","unstable":"42.2-1","repo":"extra"}
 ,{"name":"gnome-shell","stable":"1:42.1-1","testing":"1:42.1-1","unstable":"1:42.2-1","repo":"extra"}
 ,{"name":"gnome-shell-extensions","stable":"42.1-1","testing":"42.1-1","unstable":"42.2-1","repo":"extra"}
 ,{"name":"gnome-software","stable":"42.1-1","testing":"42.1-1","unstable":"42.2-1","repo":"extra"}
@@ -1056,7 +1056,7 @@
 ,{"name":"iptraf-ng","stable":"1.2.1-1","testing":"1.2.1-1","unstable":"1.2.1-1","repo":"extra"}
 ,{"name":"irqbalance","stable":"1.8.0-2","testing":"1.8.0-2","unstable":"1.8.0-2","repo":"extra"}
 ,{"name":"irssi","stable":"1.2.3-2","testing":"1.2.3-2","unstable":"1.2.3-3","repo":"extra"}
-,{"name":"iso-codes","stable":"4.9.0-1","testing":"4.9.0-1","unstable":"4.9.0-1","repo":"extra"}
+,{"name":"iso-codes","stable":"4.9.0-1","testing":"4.9.0-1","unstable":"4.10.0-1","repo":"extra"}
 ,{"name":"ispell","stable":"3.4.04-1","testing":"3.4.04-1","unstable":"3.4.04-1","repo":"extra"}
 ,{"name":"itinerary","stable":"22.04.1-1","testing":"22.04.1-1","unstable":"22.04.1-1","repo":"extra"}
 ,{"name":"itstool","stable":"1:2.0.7-1","testing":"1:2.0.7-1","unstable":"1:2.0.7-1","repo":"extra"}
@@ -1099,7 +1099,7 @@
 ,{"name":"jre-openjdk","stable":"18.0.1.1.u2-1","testing":"18.0.1.1.u2-1","unstable":"18.0.1.1.u2-1","repo":"extra"}
 ,{"name":"jre-openjdk-headless","stable":"18.0.1.1.u2-1","testing":"18.0.1.1.u2-1","unstable":"18.0.1.1.u2-1","repo":"extra"}
 ,{"name":"js78","stable":"78.15.0-4","testing":"78.15.0-4","unstable":"78.15.0-4","repo":"extra"}
-,{"name":"js91","stable":"91.9.0-1","testing":"91.9.1-1","unstable":"91.9.1-1","repo":"extra"}
+,{"name":"js91","stable":"91.9.0-1","testing":"91.9.1-1","unstable":"91.10.0-1","repo":"extra"}
 ,{"name":"jsoncpp","stable":"1.9.5-2","testing":"1.9.5-2","unstable":"1.9.5-2","repo":"extra"}
 ,{"name":"jsoncpp-doc","stable":"1.9.5-2","testing":"1.9.5-2","unstable":"1.9.5-2","repo":"extra"}
 ,{"name":"json-glib","stable":"1.6.6-2","testing":"1.6.6-2","unstable":"1.6.6-2","repo":"extra"}
@@ -1383,9 +1383,9 @@
 ,{"name":"libabw","stable":"0.1.3-2","testing":"0.1.3-3","unstable":"0.1.3-3","repo":"extra"}
 ,{"name":"libaccounts-glib","stable":"1.25-7","testing":"1.25-7","unstable":"1.25-7","repo":"extra"}
 ,{"name":"libaccounts-qt","stable":"1.16-3","testing":"1.16-3","unstable":"1.16-3","repo":"extra"}
-,{"name":"libadwaita","stable":"1:1.1.1-1","testing":"1:1.1.1-1","unstable":"1:1.1.1-1","repo":"extra"}
-,{"name":"libadwaita-demos","stable":"1:1.1.1-1","testing":"1:1.1.1-1","unstable":"1:1.1.1-1","repo":"extra"}
-,{"name":"libadwaita-docs","stable":"1:1.1.1-1","testing":"1:1.1.1-1","unstable":"1:1.1.1-1","repo":"extra"}
+,{"name":"libadwaita","stable":"1:1.1.1-1","testing":"1:1.1.1-1","unstable":"1:1.1.2-1","repo":"extra"}
+,{"name":"libadwaita-demos","stable":"1:1.1.1-1","testing":"1:1.1.1-1","unstable":"1:1.1.2-1","repo":"extra"}
+,{"name":"libadwaita-docs","stable":"1:1.1.1-1","testing":"1:1.1.1-1","unstable":"1:1.1.2-1","repo":"extra"}
 ,{"name":"libakonadi","stable":"22.04.1-2","testing":"22.04.1-2","unstable":"22.04.1-2","repo":"extra"}
 ,{"name":"libao","stable":"1.2.2-5","testing":"1.2.2-5","unstable":"1.2.2-5","repo":"extra"}
 ,{"name":"libappimage","stable":"1.0.4.5-1","testing":"1.0.4.5-1","unstable":"1.0.4.5-1","repo":"extra"}
@@ -2022,8 +2022,8 @@
 ,{"name":"linux419-bbswitch","stable":"0.8-242","testing":"0.8-242","unstable":"0.8-243","repo":"extra"}
 ,{"name":"linux419-broadcom-wl","stable":"6.30.223.271-242","testing":"6.30.223.271-242","unstable":"6.30.223.271-243","repo":"extra"}
 ,{"name":"linux419-ndiswrapper","stable":"1.63-132","testing":"1.63-132","unstable":"1.63-133","repo":"extra"}
-,{"name":"linux419-nvidia-390xx","stable":"390.151-4","testing":"390.151-4","unstable":"390.151-5","repo":"extra"}
-,{"name":"linux419-nvidia-470xx","stable":"470.129.06-2","testing":"470.129.06-2","unstable":"470.129.06-3","repo":"extra"}
+,{"name":"linux419-nvidia-390xx","stable":"390.151-4","testing":"390.151-4","unstable":"390.151-6","repo":"extra"}
+,{"name":"linux419-nvidia-470xx","stable":"470.129.06-2","testing":"470.129.06-2","unstable":"470.129.06-4","repo":"extra"}
 ,{"name":"linux419-nvidia","stable":"510.73.05-2","testing":"515.43.04-5","unstable":"515.48.07-2","repo":"extra"}
 ,{"name":"linux419-nvidiabl","stable":"0.88-241","testing":"0.88-241","unstable":"0.88-242","repo":"extra"}
 ,{"name":"linux419-r8168","stable":"8.049.02-53","testing":"8.049.02-53","unstable":"8.049.02-54","repo":"extra"}
@@ -2050,8 +2050,8 @@
 ,{"name":"linux510-acpi_call","stable":"1.2.2-35","testing":"1.2.2-35","unstable":"1.2.2-37","repo":"extra"}
 ,{"name":"linux510-bbswitch","stable":"0.8-136","testing":"0.8-136","unstable":"0.8-138","repo":"extra"}
 ,{"name":"linux510-broadcom-wl","stable":"6.30.223.271-138","testing":"6.30.223.271-138","unstable":"6.30.223.271-140","repo":"extra"}
-,{"name":"linux510-nvidia-390xx","stable":"390.151-3","testing":"390.151-3","unstable":"390.151-5","repo":"extra"}
-,{"name":"linux510-nvidia-470xx","stable":"470.129.06-2","testing":"470.129.06-2","unstable":"470.129.06-4","repo":"extra"}
+,{"name":"linux510-nvidia-390xx","stable":"390.151-3","testing":"390.151-3","unstable":"390.151-6","repo":"extra"}
+,{"name":"linux510-nvidia-470xx","stable":"470.129.06-2","testing":"470.129.06-2","unstable":"470.129.06-5","repo":"extra"}
 ,{"name":"linux510-nvidia","stable":"510.73.05-2","testing":"515.43.04-4","unstable":"515.48.07-2","repo":"extra"}
 ,{"name":"linux510-r8168","stable":"8.049.02-73","testing":"8.049.02-73","unstable":"8.049.02-75","repo":"extra"}
 ,{"name":"linux510-rtl8723bu","stable":"20220114-29","testing":"20220114-29","unstable":"20220114-31","repo":"extra"}
@@ -2062,8 +2062,8 @@
 ,{"name":"linux515-acpi_call","stable":"1.2.2-37","testing":"1.2.2-37","unstable":"1.2.2-40","repo":"extra"}
 ,{"name":"linux515-bbswitch","stable":"0.8-52","testing":"0.8-52","unstable":"0.8-55","repo":"extra"}
 ,{"name":"linux515-broadcom-wl","stable":"6.30.223.271-52","testing":"6.30.223.271-52","unstable":"6.30.223.271-55","repo":"extra"}
-,{"name":"linux515-nvidia-390xx","stable":"390.151-36","testing":"390.151-36","unstable":"390.151-39","repo":"extra"}
-,{"name":"linux515-nvidia-470xx","stable":"470.129.06-3","testing":"470.129.06-3","unstable":"470.129.06-6","repo":"extra"}
+,{"name":"linux515-nvidia-390xx","stable":"390.151-36","testing":"390.151-36","unstable":"390.151-40","repo":"extra"}
+,{"name":"linux515-nvidia-470xx","stable":"470.129.06-3","testing":"470.129.06-3","unstable":"470.129.06-7","repo":"extra"}
 ,{"name":"linux515-nvidia","stable":"510.73.05-2","testing":"515.43.04-4","unstable":"515.48.07-2","repo":"extra"}
 ,{"name":"linux515-r8168","stable":"8.049.02-52","testing":"8.049.02-52","unstable":"8.049.02-55","repo":"extra"}
 ,{"name":"linux515-rtl8723bu","stable":"20220114-31","testing":"20220114-31","unstable":"20220114-34","repo":"extra"}
@@ -2074,8 +2074,8 @@
 ,{"name":"linux517-acpi_call","stable":"1.2.2-16","testing":"1.2.2-16","unstable":"1.2.2-19","repo":"extra"}
 ,{"name":"linux517-bbswitch","stable":"0.8-16","testing":"0.8-16","unstable":"0.8-19","repo":"extra"}
 ,{"name":"linux517-broadcom-wl","stable":"6.30.223.271-14","testing":"6.30.223.271-14","unstable":"6.30.223.271-17","repo":"extra"}
-,{"name":"linux517-nvidia-390xx","stable":"390.151-3","testing":"390.151-3","unstable":"390.151-6","repo":"extra"}
-,{"name":"linux517-nvidia-470xx","stable":"470.129.06-3","testing":"470.129.06-3","unstable":"470.129.06-6","repo":"extra"}
+,{"name":"linux517-nvidia-390xx","stable":"390.151-3","testing":"390.151-3","unstable":"390.151-7","repo":"extra"}
+,{"name":"linux517-nvidia-470xx","stable":"470.129.06-3","testing":"470.129.06-3","unstable":"470.129.06-7","repo":"extra"}
 ,{"name":"linux517-nvidia","stable":"510.73.05-2","testing":"515.43.04-4","unstable":"515.48.07-2","repo":"extra"}
 ,{"name":"linux517-r8168","stable":"8.049.02-14","testing":"8.049.02-14","unstable":"8.049.02-17","repo":"extra"}
 ,{"name":"linux517-rtl8723bu","stable":"20220202-14","testing":"20220202-14","unstable":"20220202-17","repo":"extra"}
@@ -2086,8 +2086,8 @@
 ,{"name":"linux518-acpi_call","stable":"1.2.2-0.10","testing":"1.2.2-0.10","unstable":"1.2.2-3","repo":"extra"}
 ,{"name":"linux518-bbswitch","stable":"n/a","testing":"n/a","unstable":"0.8-3","repo":"extra"}
 ,{"name":"linux518-broadcom-wl","stable":"n/a","testing":"n/a","unstable":"6.30.223.271-2","repo":"extra"}
-,{"name":"linux518-nvidia-390xx","stable":"n/a","testing":"n/a","unstable":"390.151-3","repo":"extra"}
-,{"name":"linux518-nvidia-470xx","stable":"470.129.06-0.11","testing":"470.129.06-0.11","unstable":"470.129.06-3","repo":"extra"}
+,{"name":"linux518-nvidia-390xx","stable":"n/a","testing":"n/a","unstable":"390.151-4","repo":"extra"}
+,{"name":"linux518-nvidia-470xx","stable":"470.129.06-0.11","testing":"470.129.06-0.11","unstable":"470.129.06-4","repo":"extra"}
 ,{"name":"linux518-nvidia","stable":"510.73.05-0.1","testing":"515.43.04-0.3","unstable":"515.48.07-2","repo":"extra"}
 ,{"name":"linux518-r8168","stable":"n/a","testing":"n/a","unstable":"8.049.02-3","repo":"extra"}
 ,{"name":"linux518-rtl8723bu","stable":"n/a","testing":"n/a","unstable":"20220522-3","repo":"extra"}
@@ -2099,8 +2099,8 @@
 ,{"name":"linux54-bbswitch","stable":"0.8-208","testing":"0.8-208","unstable":"0.8-209","repo":"extra"}
 ,{"name":"linux54-broadcom-wl","stable":"6.30.223.271-209","testing":"6.30.223.271-209","unstable":"6.30.223.271-210","repo":"extra"}
 ,{"name":"linux54-ndiswrapper","stable":"1.63-164","testing":"1.63-164","unstable":"1.63-165","repo":"extra"}
-,{"name":"linux54-nvidia-390xx","stable":"390.151-3","testing":"390.151-3","unstable":"390.151-4","repo":"extra"}
-,{"name":"linux54-nvidia-470xx","stable":"470.129.06-3","testing":"470.129.06-3","unstable":"470.129.06-4","repo":"extra"}
+,{"name":"linux54-nvidia-390xx","stable":"390.151-3","testing":"390.151-3","unstable":"390.151-5","repo":"extra"}
+,{"name":"linux54-nvidia-470xx","stable":"470.129.06-3","testing":"470.129.06-3","unstable":"470.129.06-5","repo":"extra"}
 ,{"name":"linux54-nvidia","stable":"510.73.05-2","testing":"515.43.04-4","unstable":"515.48.07-2","repo":"extra"}
 ,{"name":"linux54-nvidiabl","stable":"0.88-208","testing":"0.88-208","unstable":"0.88-209","repo":"extra"}
 ,{"name":"linux54-r8168","stable":"8.049.02-70","testing":"8.049.02-70","unstable":"8.049.02-71","repo":"extra"}
@@ -2528,7 +2528,7 @@
 ,{"name":"perl-term-readkey","stable":"2.38-6","testing":"2.38-6","unstable":"2.38-7","repo":"extra"}
 ,{"name":"perl-test-pod","stable":"1.52-6","testing":"1.52-6","unstable":"1.52-7","repo":"extra"}
 ,{"name":"perl-text-bibtex","stable":"0.85-7","testing":"0.85-7","unstable":"0.85-8","repo":"extra"}
-,{"name":"perl-text-csv","stable":"2.00-2","testing":"2.00-2","unstable":"2.00-3","repo":"extra"}
+,{"name":"perl-text-csv","stable":"2.00-2","testing":"2.00-2","unstable":"2.01-1","repo":"extra"}
 ,{"name":"perl-text-glob","stable":"0.11-8","testing":"0.11-8","unstable":"0.11-9","repo":"extra"}
 ,{"name":"perl-text-iconv","stable":"1.7-20","testing":"1.7-20","unstable":"1.7-21","repo":"extra"}
 ,{"name":"perl-text-patch","stable":"1.8-9","testing":"1.8-9","unstable":"1.8-10","repo":"extra"}
@@ -2982,7 +2982,7 @@
 ,{"name":"rav1e","stable":"0.4.1-2","testing":"0.4.1-2","unstable":"0.4.1-2","repo":"extra"}
 ,{"name":"razor","stable":"2.85-16","testing":"2.85-16","unstable":"2.85-17","repo":"extra"}
 ,{"name":"rcs","stable":"5.10.1-1","testing":"5.10.1-1","unstable":"5.10.1-1","repo":"extra"}
-,{"name":"re2","stable":"1:20220401-1","testing":"1:20220401-1","unstable":"1:20220401-1","repo":"extra"}
+,{"name":"re2","stable":"1:20220401-1","testing":"1:20220401-1","unstable":"1:20220601-1","repo":"extra"}
 ,{"name":"re2c","stable":"3.0-1","testing":"3.0-1","unstable":"3.0-1","repo":"extra"}
 ,{"name":"rebuilderd-website","stable":"0.5.5-1","testing":"0.5.5-1","unstable":"0.5.5-1","repo":"extra"}
 ,{"name":"recode","stable":"3.7.12-1","testing":"3.7.12-1","unstable":"3.7.12-1","repo":"extra"}
@@ -3250,11 +3250,11 @@
 ,{"name":"tomcat-native","stable":"1.2.32-1","testing":"1.2.32-1","unstable":"1.2.32-1","repo":"extra"}
 ,{"name":"totem","stable":"42.0-1","testing":"42.0-1","unstable":"42.0-1","repo":"extra"}
 ,{"name":"totem-pl-parser","stable":"3.26.6-1","testing":"3.26.6-1","unstable":"3.26.6-1","repo":"extra"}
-,{"name":"tracker","stable":"2.3.6+7+gb27396252-4","testing":"2.3.6+7+gb27396252-4","unstable":"2.3.6+7+gb27396252-4","repo":"extra"}
-,{"name":"tracker3","stable":"3.3.0-2","testing":"3.3.0-2","unstable":"3.3.0-2","repo":"extra"}
-,{"name":"tracker3-docs","stable":"3.3.0-2","testing":"3.3.0-2","unstable":"3.3.0-2","repo":"extra"}
-,{"name":"tracker3-miners","stable":"3.3.0-2","testing":"3.3.0-2","unstable":"3.3.0-2","repo":"extra"}
-,{"name":"tracker-miners","stable":"2.3.5+2+gec09554af-5","testing":"2.3.5+2+gec09554af-5","unstable":"2.3.5+2+gec09554af-5","repo":"extra"}
+,{"name":"tracker","stable":"2.3.6+7+gb27396252-4","testing":"2.3.6+7+gb27396252-4","unstable":"1:2.3.6+r7+gb27396252-1","repo":"extra"}
+,{"name":"tracker3","stable":"3.3.0-2","testing":"3.3.0-2","unstable":"3.3.1-1","repo":"extra"}
+,{"name":"tracker3-docs","stable":"3.3.0-2","testing":"3.3.0-2","unstable":"3.3.1-1","repo":"extra"}
+,{"name":"tracker3-miners","stable":"3.3.0-2","testing":"3.3.0-2","unstable":"3.3.1-1","repo":"extra"}
+,{"name":"tracker-miners","stable":"2.3.5+2+gec09554af-5","testing":"2.3.5+2+gec09554af-5","unstable":"1:2.3.5+r3+gd9d61d87f-1","repo":"extra"}
 ,{"name":"transmission-cli","stable":"3.00-4","testing":"3.00-4","unstable":"3.00-4","repo":"extra"}
 ,{"name":"transmission-gtk","stable":"3.00-4","testing":"3.00-4","unstable":"3.00-4","repo":"extra"}
 ,{"name":"transmission-qt","stable":"3.00-4","testing":"3.00-4","unstable":"3.00-4","repo":"extra"}
@@ -3836,7 +3836,7 @@
 ,{"name":"b3sum","stable":"1.3.1-1","testing":"1.3.1-1","unstable":"1.3.1-1","repo":"community"}
 ,{"name":"b4","stable":"0.8.0-2","testing":"0.8.0-2","unstable":"0.8.0-2","repo":"community"}
 ,{"name":"babel-cli","stable":"7.17.10-1","testing":"7.17.10-1","unstable":"7.17.10-1","repo":"community"}
-,{"name":"babel-core","stable":"7.17.12-1","testing":"7.17.12-1","unstable":"7.18.0-1","repo":"community"}
+,{"name":"babel-core","stable":"7.17.12-1","testing":"7.17.12-1","unstable":"7.18.2-1","repo":"community"}
 ,{"name":"babeld","stable":"1.12-1","testing":"1.12-1","unstable":"1.12-1","repo":"community"}
 ,{"name":"babeltrace","stable":"1.5.8-1","testing":"1.5.8-1","unstable":"1.5.8-1","repo":"community"}
 ,{"name":"babeltrace2","stable":"2.0.4-1","testing":"2.0.4-1","unstable":"2.0.4-1","repo":"community"}
@@ -3854,7 +3854,7 @@
 ,{"name":"bandwhich","stable":"0.20.0-1","testing":"0.20.0-1","unstable":"0.20.0-1","repo":"community"}
 ,{"name":"banner","stable":"1.3.2-9","testing":"1.3.2-9","unstable":"1.3.2-9","repo":"community"}
 ,{"name":"barcode","stable":"0.99-5","testing":"0.99-5","unstable":"0.99-5","repo":"community"}
-,{"name":"baresip","stable":"2.3.0-1","testing":"2.3.0-1","unstable":"2.3.0-1","repo":"community"}
+,{"name":"baresip","stable":"2.3.0-1","testing":"2.3.0-1","unstable":"2.4.0-1","repo":"community"}
 ,{"name":"barrage","stable":"1.0.5-2","testing":"1.0.5-2","unstable":"1.0.5-2","repo":"community"}
 ,{"name":"barrier","stable":"2.4.0-1","testing":"2.4.0-1","unstable":"2.4.0-1","repo":"community"}
 ,{"name":"barrier-headless","stable":"2.4.0-1","testing":"2.4.0-1","unstable":"2.4.0-1","repo":"community"}
@@ -3955,7 +3955,7 @@
 ,{"name":"bootsplash-manager","stable":"1.8-1","testing":"1.8-1","unstable":"1.8-1","repo":"community"}
 ,{"name":"bore","stable":"0.4.0-1","testing":"0.4.0-1","unstable":"0.4.0-1","repo":"community"}
 ,{"name":"borg","stable":"1.2.0-3","testing":"1.2.0-3","unstable":"1.2.0-3","repo":"community"}
-,{"name":"borgmatic","stable":"1.6.0-1","testing":"1.6.0-1","unstable":"1.6.2-1","repo":"community"}
+,{"name":"borgmatic","stable":"1.6.0-1","testing":"1.6.0-1","unstable":"1.6.2-2","repo":"community"}
 ,{"name":"bottom","stable":"0.6.8-1","testing":"0.6.8-1","unstable":"0.6.8-1","repo":"community"}
 ,{"name":"bower","stable":"1.8.14-1","testing":"1.8.14-1","unstable":"1.8.14-1","repo":"community"}
 ,{"name":"bpf","stable":"5.17-1","testing":"5.17-1","unstable":"5.17-2","repo":"community"}
@@ -4343,7 +4343,7 @@
 ,{"name":"crun","stable":"1.4.5-1","testing":"1.4.5-1","unstable":"1.4.5-1","repo":"community"}
 ,{"name":"cryfs","stable":"0.11.2-2","testing":"0.11.2-2","unstable":"0.11.2-2","repo":"community"}
 ,{"name":"crypto++","stable":"8.6.0-2","testing":"8.6.0-2","unstable":"8.6.0-2","repo":"community"}
-,{"name":"cryptol","stable":"2.12.0-74","testing":"2.12.0-75","unstable":"2.12.0-81","repo":"community"}
+,{"name":"cryptol","stable":"2.12.0-74","testing":"2.12.0-75","unstable":"2.12.0-82","repo":"community"}
 ,{"name":"cryptominisat5","stable":"5.8.0-9","testing":"5.8.0-9","unstable":"5.8.0-9","repo":"community"}
 ,{"name":"crystal","stable":"1.4.1-1","testing":"1.4.1-1","unstable":"1.4.1-1","repo":"community"}
 ,{"name":"csfml","stable":"2.5.1-1","testing":"2.5.1-1","unstable":"2.5.1-1","repo":"community"}
@@ -4999,7 +4999,7 @@
 ,{"name":"firefox-gnome-theme-maia","stable":"20220404-1","testing":"20220404-1","unstable":"20220404-1","repo":"community"}
 ,{"name":"firefox-noscript","stable":"11.4.1-1","testing":"11.4.1-1","unstable":"11.4.1-1","repo":"community"}
 ,{"name":"firefox-spell-ru","stable":"0.4.5-3","testing":"0.4.5-3","unstable":"0.4.5-3","repo":"community"}
-,{"name":"firefox-tree-style-tab","stable":"3.8.23-1","testing":"3.8.23-1","unstable":"3.8.23-1","repo":"community"}
+,{"name":"firefox-tree-style-tab","stable":"3.8.23-1","testing":"3.8.23-1","unstable":"3.8.24-1","repo":"community"}
 ,{"name":"firefox-tridactyl","stable":"1.22.1-1","testing":"1.22.1-1","unstable":"1.22.1-1","repo":"community"}
 ,{"name":"firefox-ublock-origin","stable":"1.42.4-1","testing":"1.42.4-1","unstable":"1.42.4-1","repo":"community"}
 ,{"name":"firejail","stable":"0.9.68-1","testing":"0.9.68-1","unstable":"0.9.68-1","repo":"community"}
@@ -5308,11 +5308,11 @@
 ,{"name":"gitea","stable":"1.16.8-1","testing":"1.16.8-1","unstable":"1.16.8-1","repo":"community"}
 ,{"name":"git-filter-repo","stable":"2.34.0-1","testing":"2.34.0-1","unstable":"2.34.0-1","repo":"community"}
 ,{"name":"github-cli","stable":"2.10.1-1","testing":"2.10.1-1","unstable":"2.11.3-1","repo":"community"}
-,{"name":"gitlab","stable":"14.10.2-1","testing":"14.10.2-1","unstable":"14.10.2-1","repo":"community"}
+,{"name":"gitlab","stable":"14.10.2-1","testing":"14.10.2-1","unstable":"15.0.0-1","repo":"community"}
 ,{"name":"gitlab-exporter","stable":"0.1.0-1","testing":"0.1.0-1","unstable":"0.1.0-1","repo":"community"}
 ,{"name":"gitlab-gitaly","stable":"14.4.5-2","testing":"14.4.5-2","unstable":"14.4.5-2","repo":"community"}
 ,{"name":"gitlab-runner","stable":"14.10.0-1","testing":"14.10.0-1","unstable":"14.10.0-1","repo":"community"}
-,{"name":"gitlab-shell","stable":"3:13.25.1-1","testing":"3:13.25.1-1","unstable":"3:13.25.1-1","repo":"community"}
+,{"name":"gitlab-shell","stable":"3:13.25.1-1","testing":"3:13.25.1-1","unstable":"3:14.7.1-1","repo":"community"}
 ,{"name":"gitlab-workhorse","stable":"8.65.0-1","testing":"8.65.0-1","unstable":"8.65.0-1","repo":"community"}
 ,{"name":"git-latexdiff","stable":"1.6.0-1","testing":"1.6.0-1","unstable":"1.6.0-1","repo":"community"}
 ,{"name":"git-lfs","stable":"3.1.4-2","testing":"3.1.4-2","unstable":"3.2.0-1","repo":"community"}
@@ -5423,7 +5423,7 @@
 ,{"name":"gnuradio-osmosdr","stable":"0.2.3-9","testing":"0.2.3-9","unstable":"0.2.3-9","repo":"community"}
 ,{"name":"gnustep-base","stable":"1.28.0-4","testing":"1.28.0-4","unstable":"1.28.0-4","repo":"community"}
 ,{"name":"gnustep-make","stable":"2.9.0-1","testing":"2.9.0-1","unstable":"2.9.0-1","repo":"community"}
-,{"name":"go","stable":"2:1.18.2-1","testing":"2:1.18.2-1","unstable":"2:1.18.2-1","repo":"community"}
+,{"name":"go","stable":"2:1.18.2-1","testing":"2:1.18.2-1","unstable":"2:1.18.3-1","repo":"community"}
 ,{"name":"goaccess","stable":"1.5.7-1","testing":"1.5.7-1","unstable":"1.5.7-1","repo":"community"}
 ,{"name":"gobby","stable":"1:0.6.0-1","testing":"1:0.6.0-1","unstable":"1:0.6.0-1","repo":"community"}
 ,{"name":"go-bindata","stable":"4.0.0-2","testing":"4.0.0-2","unstable":"4.0.0-2","repo":"community"}
@@ -6110,7 +6110,7 @@
 ,{"name":"haskell-math-functions","stable":"0.3.4.2-145","testing":"0.3.4.2-145","unstable":"0.3.4.2-152","repo":"community"}
 ,{"name":"haskell-megaparsec","stable":"9.2.1-1","testing":"9.2.1-1","unstable":"9.2.1-3","repo":"community"}
 ,{"name":"haskell-memory","stable":"0.17.0-9","testing":"0.17.0-9","unstable":"0.17.0-11","repo":"community"}
-,{"name":"haskell-memotrie","stable":"0.6.10-160","testing":"0.6.10-160","unstable":"0.6.10-162","repo":"community"}
+,{"name":"haskell-memotrie","stable":"0.6.10-160","testing":"0.6.10-160","unstable":"0.6.10-163","repo":"community"}
 ,{"name":"haskell-mersenne-random-pure64","stable":"0.2.2.0-122","testing":"0.2.2.0-122","unstable":"0.2.2.0-124","repo":"community"}
 ,{"name":"haskell-microlens","stable":"0.4.12.0-5","testing":"0.4.12.0-5","unstable":"0.4.12.0-5","repo":"community"}
 ,{"name":"haskell-microlens-aeson","stable":"2.3.1-192","testing":"2.3.1-192","unstable":"2.3.1-194","repo":"community"}
@@ -6173,7 +6173,7 @@
 ,{"name":"haskell-network-simple","stable":"0.4.5-31","testing":"0.4.5-31","unstable":"0.4.5-34","repo":"community"}
 ,{"name":"haskell-network-uri","stable":"2.6.4.1-78","testing":"2.6.4.1-78","unstable":"2.6.4.1-80","repo":"community"}
 ,{"name":"haskell-newtype","stable":"0.2.2.0-12","testing":"0.2.2.0-12","unstable":"0.2.2.0-12","repo":"community"}
-,{"name":"haskell-newtype-generics","stable":"0.6.1-33","testing":"0.6.1-33","unstable":"0.6.1-35","repo":"community"}
+,{"name":"haskell-newtype-generics","stable":"0.6.1-33","testing":"0.6.1-33","unstable":"0.6.2-1","repo":"community"}
 ,{"name":"haskell-nonce","stable":"1.0.7-238","testing":"1.0.7-238","unstable":"1.0.7-240","repo":"community"}
 ,{"name":"haskell-non-negative","stable":"0.1.2-182","testing":"0.1.2-182","unstable":"0.1.2-184","repo":"community"}
 ,{"name":"haskell-nothunks","stable":"0.1.3-8","testing":"0.1.3-8","unstable":"0.1.3-10","repo":"community"}
@@ -6446,7 +6446,7 @@
 ,{"name":"haskell-text-metrics","stable":"0.3.2-25","testing":"0.3.2-25","unstable":"0.3.2-27","repo":"community"}
 ,{"name":"haskell-text-printer","stable":"0.5.0.2-36","testing":"0.5.0.2-36","unstable":"0.5.0.2-38","repo":"community"}
 ,{"name":"haskell-text-short","stable":"0.1.5-22","testing":"0.1.5-22","unstable":"0.1.5-24","repo":"community"}
-,{"name":"haskell-text-show","stable":"3.9.6-14","testing":"3.9.6-14","unstable":"3.9.6-17","repo":"community"}
+,{"name":"haskell-text-show","stable":"3.9.6-14","testing":"3.9.6-14","unstable":"3.9.7-1","repo":"community"}
 ,{"name":"haskell-text-zipper","stable":"0.11-93","testing":"0.11-93","unstable":"0.11-95","repo":"community"}
 ,{"name":"haskell-tf-random","stable":"0.5-497","testing":"0.5-497","unstable":"0.5-505","repo":"community"}
 ,{"name":"haskell-th-abstraction","stable":"0.4.3.0-2","testing":"0.4.3.0-2","unstable":"0.4.3.0-2","repo":"community"}
@@ -6860,7 +6860,7 @@
 ,{"name":"jitterentropy","stable":"3.4.0-1","testing":"3.4.0-1","unstable":"3.4.0-1","repo":"community"}
 ,{"name":"jlatexmath","stable":"1.0.7-2","testing":"1.0.7-2","unstable":"1.0.7-2","repo":"community"}
 ,{"name":"jless","stable":"0.8.0-1","testing":"0.8.0-1","unstable":"0.8.0-1","repo":"community"}
-,{"name":"jmol","stable":"14.32.57-1","testing":"14.32.57-1","unstable":"14.32.58-1","repo":"community"}
+,{"name":"jmol","stable":"14.32.57-1","testing":"14.32.57-1","unstable":"14.32.59-1","repo":"community"}
 ,{"name":"jnettop","stable":"0.13.0-7","testing":"0.13.0-7","unstable":"0.13.0-7","repo":"community"}
 ,{"name":"jnoisemeter","stable":"0.2.2-2","testing":"0.2.2-2","unstable":"0.2.2-2","repo":"community"}
 ,{"name":"jo","stable":"1.6-2","testing":"1.6-2","unstable":"1.6-2","repo":"community"}
@@ -6876,7 +6876,7 @@
 ,{"name":"jruby","stable":"9.3.4.0-1","testing":"9.3.4.0-1","unstable":"9.3.4.0-1","repo":"community"}
 ,{"name":"jsampler","stable":"0.9-9","testing":"0.9-9","unstable":"0.9-9","repo":"community"}
 ,{"name":"jshon","stable":"20131105-4","testing":"20131105-4","unstable":"20131105-4","repo":"community"}
-,{"name":"jsmol","stable":"14.32.57-1","testing":"14.32.57-1","unstable":"14.32.58-1","repo":"community"}
+,{"name":"jsmol","stable":"14.32.57-1","testing":"14.32.57-1","unstable":"14.32.59-1","repo":"community"}
 ,{"name":"juce","stable":"6.1.6-1","testing":"6.1.6-1","unstable":"6.1.6-1","repo":"community"}
 ,{"name":"juce-docs","stable":"6.1.6-1","testing":"6.1.6-1","unstable":"6.1.6-1","repo":"community"}
 ,{"name":"judy","stable":"1.0.5-7","testing":"1.0.5-7","unstable":"1.0.5-7","repo":"community"}
@@ -6889,7 +6889,7 @@
 ,{"name":"jupyterlab_pygments","stable":"0.2.2-1","testing":"0.2.2-1","unstable":"0.2.2-1","repo":"community"}
 ,{"name":"jupyterlab-widgets","stable":"1.0.2-2","testing":"1.0.2-2","unstable":"1.0.2-2","repo":"community"}
 ,{"name":"jupyter-nbclassic","stable":"0.3.7-2","testing":"0.3.7-2","unstable":"0.3.7-2","repo":"community"}
-,{"name":"jupyter-nbclient","stable":"0.6.3-1","testing":"0.6.3-1","unstable":"0.6.3-1","repo":"community"}
+,{"name":"jupyter-nbclient","stable":"0.6.3-1","testing":"0.6.3-1","unstable":"0.6.4-1","repo":"community"}
 ,{"name":"jupyter-nbconvert","stable":"6.5.0-3","testing":"6.5.0-3","unstable":"6.5.0-3","repo":"community"}
 ,{"name":"jupyter-nbformat","stable":"5.4.0-1","testing":"5.4.0-1","unstable":"5.4.0-1","repo":"community"}
 ,{"name":"jupyter-notebook","stable":"6.4.11-1","testing":"6.4.11-1","unstable":"6.4.11-1","repo":"community"}
@@ -7327,10 +7327,10 @@
 ,{"name":"librabbitmq-c","stable":"0.11.0-1","testing":"0.11.0-1","unstable":"0.11.0-1","repo":"community"}
 ,{"name":"libratbag","stable":"0.16-1","testing":"0.16-1","unstable":"0.16-1","repo":"community"}
 ,{"name":"librdkafka","stable":"1.8.2-1","testing":"1.8.2-1","unstable":"1.8.2-1","repo":"community"}
-,{"name":"libre","stable":"2.3.0-1","testing":"2.3.0-1","unstable":"2.3.0-1","repo":"community"}
+,{"name":"libre","stable":"2.3.0-1","testing":"2.3.0-1","unstable":"2.4.0-1","repo":"community"}
 ,{"name":"librecad","stable":"2.1.3-6","testing":"2.1.3-6","unstable":"2.1.3-6","repo":"community"}
 ,{"name":"libredefender","stable":"0.5.2-1","testing":"0.5.2-1","unstable":"0.5.2-1","repo":"community"}
-,{"name":"librem","stable":"2.3.0-1","testing":"2.3.0-1","unstable":"2.3.0-1","repo":"community"}
+,{"name":"librem","stable":"2.3.0-1","testing":"2.3.0-1","unstable":"2.4.0-1","repo":"community"}
 ,{"name":"libreoffice-extension-texmaths","stable":"0.49-1","testing":"0.49-1","unstable":"0.49-1","repo":"community"}
 ,{"name":"libreoffice-extension-writer2latex","stable":"1.6.1-2","testing":"1.6.1-2","unstable":"1.6.1-2","repo":"community"}
 ,{"name":"libreplaygain","stable":"475-4","testing":"475-4","unstable":"475-4","repo":"community"}
@@ -7486,8 +7486,8 @@
 ,{"name":"linux515-rt-bbswitch","stable":"0.8-26","testing":"0.8-26","unstable":"0.8-27","repo":"community"}
 ,{"name":"linux515-rt-broadcom-wl","stable":"6.30.223.271-26","testing":"6.30.223.271-26","unstable":"6.30.223.271-27","repo":"community"}
 ,{"name":"linux515-rt-headers","stable":"5.15.40_rt43-1","testing":"5.15.40_rt43-1","unstable":"5.15.43_rt45-1","repo":"community"}
-,{"name":"linux515-rt-nvidia-390xx","stable":"390.151-2","testing":"390.151-2","unstable":"390.151-3","repo":"community"}
-,{"name":"linux515-rt-nvidia-470xx","stable":"470.129.06-1","testing":"470.129.06-1","unstable":"470.129.06-3","repo":"community"}
+,{"name":"linux515-rt-nvidia-390xx","stable":"390.151-2","testing":"390.151-2","unstable":"390.151-4","repo":"community"}
+,{"name":"linux515-rt-nvidia-470xx","stable":"470.129.06-1","testing":"470.129.06-1","unstable":"470.129.06-4","repo":"community"}
 ,{"name":"linux515-rt-nvidia","stable":"510.73.05-3","testing":"515.43.04-2","unstable":"515.48.07-3","repo":"community"}
 ,{"name":"linux515-rt-r8168","stable":"8.049.02-26","testing":"8.049.02-26","unstable":"8.049.02-27","repo":"community"}
 ,{"name":"linux515-rt-rtl8723bu","stable":"20220114-19","testing":"20220114-19","unstable":"20220114-20","repo":"community"}
@@ -7509,8 +7509,8 @@
 ,{"name":"linux518-rt-acpi_call","stable":"n/a","testing":"n/a","unstable":"1.2.2-1","repo":"community"}
 ,{"name":"linux518-rt-broadcom-wl","stable":"n/a","testing":"n/a","unstable":"6.30.223.271-1","repo":"community"}
 ,{"name":"linux518-rt-headers","stable":"n/a","testing":"n/a","unstable":"5.18.0_rt11-1","repo":"community"}
-,{"name":"linux518-rt-nvidia-390xx","stable":"n/a","testing":"n/a","unstable":"390.151-1","repo":"community"}
-,{"name":"linux518-rt-nvidia-470xx","stable":"n/a","testing":"n/a","unstable":"470.129.06-1","repo":"community"}
+,{"name":"linux518-rt-nvidia-390xx","stable":"n/a","testing":"n/a","unstable":"390.151-2","repo":"community"}
+,{"name":"linux518-rt-nvidia-470xx","stable":"n/a","testing":"n/a","unstable":"470.129.06-2","repo":"community"}
 ,{"name":"linux518-rt-nvidia","stable":"n/a","testing":"n/a","unstable":"515.48.07-3","repo":"community"}
 ,{"name":"linux518-rt-tp_smapi","stable":"n/a","testing":"n/a","unstable":"0.43-1","repo":"community"}
 ,{"name":"linux518-rt-vhba-module","stable":"n/a","testing":"n/a","unstable":"20211218-1","repo":"community"}
@@ -8679,7 +8679,7 @@
 ,{"name":"osmo","stable":"0.4.4-1","testing":"0.4.4-1","unstable":"0.4.4-1","repo":"community"}
 ,{"name":"ospray","stable":"2.9.0-1","testing":"2.9.0-1","unstable":"2.9.0-1","repo":"community"}
 ,{"name":"os-prober","stable":"1.79-1","testing":"1.79-1","unstable":"1.79-1","repo":"community"}
-,{"name":"osquery","stable":"5.2.2-1","testing":"5.2.2-1","unstable":"5.2.2-1","repo":"community"}
+,{"name":"osquery","stable":"5.2.2-1","testing":"5.2.2-1","unstable":"5.3.0-1","repo":"community"}
 ,{"name":"otf-cascadia-code","stable":"2111.01-1","testing":"2111.01-1","unstable":"2111.01-1","repo":"community"}
 ,{"name":"otf-cormorant","stable":"3.609-1","testing":"3.609-1","unstable":"3.609-1","repo":"community"}
 ,{"name":"otf-crimson","stable":"0.800-1","testing":"0.800-1","unstable":"0.800-1","repo":"community"}
@@ -9213,7 +9213,7 @@
 ,{"name":"perl-pkgconfig","stable":"0.25026-2","testing":"0.25026-2","unstable":"0.25026-3","repo":"community"}
 ,{"name":"perl-pkgconfig-libpkgconf","stable":"0.11-3","testing":"0.11-3","unstable":"0.11-4","repo":"community"}
 ,{"name":"perl-pod-coverage","stable":"0.23-5","testing":"0.23-5","unstable":"0.23-5","repo":"community"}
-,{"name":"perl-pod-parser","stable":"1.63-2","testing":"1.63-2","unstable":"1.64-2","repo":"community"}
+,{"name":"perl-pod-parser","stable":"1.63-2","testing":"1.63-2","unstable":"1.65-1","repo":"community"}
 ,{"name":"perl-pod-spell","stable":"1.20-4","testing":"1.20-4","unstable":"1.20-5","repo":"community"}
 ,{"name":"perl-poe","stable":"1.368-2","testing":"1.368-2","unstable":"1.368-2","repo":"community"}
 ,{"name":"perl-poe-component-client-dns","stable":"1.054-7","testing":"1.054-7","unstable":"1.054-8","repo":"community"}
@@ -9646,7 +9646,7 @@
 ,{"name":"pyprof2calltree","stable":"1.4.5-7","testing":"1.4.5-7","unstable":"1.4.5-7","repo":"community"}
 ,{"name":"pypy3","stable":"7.3.9-1","testing":"7.3.9-1","unstable":"7.3.9-1","repo":"community"}
 ,{"name":"pypy","stable":"7.3.9-1","testing":"7.3.9-1","unstable":"7.3.9-1","repo":"community"}
-,{"name":"pyright","stable":"1.1.247-1","testing":"1.1.248-1","unstable":"1.1.249-1","repo":"community"}
+,{"name":"pyright","stable":"1.1.247-1","testing":"1.1.248-1","unstable":"1.1.251-1","repo":"community"}
 ,{"name":"pysolfc","stable":"2.14.1-1","testing":"2.16.0-1","unstable":"2.16.0-1","repo":"community"}
 ,{"name":"pysolfc-cardsets","stable":"2.0-6","testing":"2.1-1","unstable":"2.1-1","repo":"community"}
 ,{"name":"pystatgrab","stable":"0.7.1-2","testing":"0.7.1-2","unstable":"0.7.1-2","repo":"community"}
@@ -10611,7 +10611,7 @@
 ,{"name":"python-pgpy","stable":"0.5.4-2","testing":"0.5.4-2","unstable":"0.5.4-2","repo":"community"}
 ,{"name":"python-pgspecial","stable":"1.13.1-2","testing":"1.13.1-2","unstable":"1.13.1-2","repo":"community"}
 ,{"name":"python-phitigra","stable":"0.2.5-1","testing":"0.2.5-1","unstable":"0.2.5-1","repo":"community"}
-,{"name":"python-phonenumbers","stable":"8.12.48-1","testing":"8.12.48-1","unstable":"8.12.48-1","repo":"community"}
+,{"name":"python-phonenumbers","stable":"8.12.48-1","testing":"8.12.48-1","unstable":"8.12.49-1","repo":"community"}
 ,{"name":"python-phpserialize","stable":"1.3-9","testing":"1.3-9","unstable":"1.3-9","repo":"community"}
 ,{"name":"python-pickleshare","stable":"0.7.5-8","testing":"0.7.5-8","unstable":"0.7.5-8","repo":"community"}
 ,{"name":"python-piexif","stable":"1.1.3-7","testing":"1.1.3-7","unstable":"1.1.3-7","repo":"community"}
@@ -11069,7 +11069,7 @@
 ,{"name":"python-sparqlwrapper","stable":"1.8.5-3","testing":"1.8.5-3","unstable":"1.8.5-3","repo":"community"}
 ,{"name":"python-speaklater","stable":"1.3-11","testing":"1.3-11","unstable":"1.3-11","repo":"community"}
 ,{"name":"python-spec","stable":"1.4.1-3","testing":"1.4.1-3","unstable":"1.4.1-3","repo":"community"}
-,{"name":"python-sphinx","stable":"4.5.0-1","testing":"4.5.0-1","unstable":"5.0.0-1","repo":"community"}
+,{"name":"python-sphinx","stable":"4.5.0-1","testing":"4.5.0-1","unstable":"5.0.0-2","repo":"community"}
 ,{"name":"python-sphinx-alabaster-theme","stable":"0.7.12-9","testing":"0.7.12-9","unstable":"0.7.12-9","repo":"community"}
 ,{"name":"python-sphinx-argparse","stable":"0.3.1-2","testing":"0.3.1-2","unstable":"0.3.1-2","repo":"community"}
 ,{"name":"python-sphinx-argparse-cli","stable":"1.8.2-1","testing":"1.8.2-1","unstable":"1.8.2-1","repo":"community"}
@@ -12697,7 +12697,7 @@
 ,{"name":"ttf-inconsolata","stable":"1:3.000-3","testing":"1:3.000-3","unstable":"1:3.000-3","repo":"community"}
 ,{"name":"ttf-indic-otf","stable":"0.2-11","testing":"0.2-11","unstable":"0.2-11","repo":"community"}
 ,{"name":"ttf-input","stable":"20220502-1","testing":"20220502-1","unstable":"20220502-1","repo":"community"}
-,{"name":"ttf-ionicons","stable":"6.0.1-1","testing":"6.0.1-1","unstable":"6.0.1-1","repo":"community"}
+,{"name":"ttf-ionicons","stable":"6.0.1-1","testing":"6.0.1-1","unstable":"6.0.2-1","repo":"community"}
 ,{"name":"ttf-iosevka-nerd","stable":"2.1.0-2","testing":"2.1.0-2","unstable":"2.1.0-2","repo":"community"}
 ,{"name":"ttf-jetbrains-mono","stable":"2.242-2","testing":"2.242-2","unstable":"2.242-2","repo":"community"}
 ,{"name":"ttf-joypixels","stable":"6.6.0-2","testing":"6.6.0-2","unstable":"6.6.0-2","repo":"community"}
@@ -12851,7 +12851,7 @@
 ,{"name":"uwsgi-plugin-zabbix","stable":"2.0.20-6","testing":"2.0.20-6","unstable":"2.0.20-7","repo":"community"}
 ,{"name":"uwsgitop","stable":"0.11-5","testing":"0.11-5","unstable":"0.11-5","repo":"community"}
 ,{"name":"v2ray","stable":"4.45.0-1","testing":"4.45.0-1","unstable":"4.45.0-1","repo":"community"}
-,{"name":"v2ray-domain-list-community","stable":"20220519111546-1","testing":"20220519111546-1","unstable":"20220527052102-1","repo":"community"}
+,{"name":"v2ray-domain-list-community","stable":"20220519111546-1","testing":"20220519111546-1","unstable":"20220601043719-1","repo":"community"}
 ,{"name":"v2ray-geoip","stable":"202205190058-1","testing":"202205190058-1","unstable":"202205260055-1","repo":"community"}
 ,{"name":"v4l2loopback-dkms","stable":"0.12.5-2","testing":"0.12.5-2","unstable":"0.12.5-2","repo":"community"}
 ,{"name":"v4l2loopback-utils","stable":"0.12.5-2","testing":"0.12.5-2","unstable":"0.12.5-2","repo":"community"}
